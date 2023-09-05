@@ -17,11 +17,8 @@ import (
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 	cxstrconv "github.com/cloudxaas/gostrconv"
-
 	//qtc "github.com/valyala/quicktemplate/qtc"
-
-	"g.sprapp.com/sprapp/app/sprapp.com/pkg/user"
-	templatesHTML "g.sprapp.com/sprapp/app/sprapp.com/templates/html"
+	templatesHTML "github.com/cloudxaas/gosprapp/app/sprapp/templates/html"
 	"github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/html"
 	"github.com/zeebo/blake3"
@@ -31,7 +28,7 @@ var (
 	m *minify.M
 
 	fs = &app.FS{
-		Root: "/var/web/site/sprapp.com/public_html",
+		Root: "/var/web/site/sprapp/public_html",
 		///IndexNames:         []string{"index.html"},
 		//GenerateIndexPages: true,
 		//PathRewrite: app.NewPathSlashesStripper(1),
