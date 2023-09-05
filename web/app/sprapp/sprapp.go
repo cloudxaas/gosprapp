@@ -18,7 +18,7 @@ import (
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
 	cxstrconv "github.com/cloudxaas/gostrconv"
 	//qtc "github.com/valyala/quicktemplate/qtc"
-	templatesHTML "github.com/cloudxaas/gosprapp/app/sprapp/templates/html"
+	templatesHTML "github.com/cloudxaas/gosprapp/web/app/sprapp/templates/html"
 	"github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/html"
 	"github.com/zeebo/blake3"
