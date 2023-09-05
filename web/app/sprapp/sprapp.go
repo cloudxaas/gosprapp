@@ -275,19 +275,6 @@ func init() {
 	m.AddFunc("text/html", html.Minify)
 }
 
-//go:generate jade -pkg=main -writer -fmt index.jade
-/*
-type Subcategory struct {
-	Name string
-	URL  string
-}
-
-type Category struct {
-	Name          string
-	URL           string
-	Subcategories []Subcategory
-}
-*/
 type H struct {
 	Data []byte
 	Err  error
