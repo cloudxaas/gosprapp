@@ -1,4 +1,4 @@
-currently working on the /app/web folder.
+currently working on the /web/app folder.
 
 are you interested in this?
 email kolinfluence { at } gmail
