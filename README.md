@@ -1,3 +1,17 @@
+currently working on the /app/web folder.
+
+are you interested in this?
+email kolinfluence { at } gmail
+
+we are looking for co developer etc.
+
+aim to make it the fastest, most secure, extreme performance golang web app
+
+
+
+please ignore everything else below this line
+
+
 # Standard Go Project Layout
 
 Translations:
