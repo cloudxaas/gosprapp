@@ -19,6 +19,9 @@ import (
 func main() {
 	var err error
 
+	cxcputhread.DefineFlags()
+        pflag.Parse()
+
 	if cxcputhread.CPUThread == 0 {
 
 		childs := uint16(runtime.GOMAXPROCS(-1)) // Start a child for each CPU.
